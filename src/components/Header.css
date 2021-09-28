@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading-primary {
+  color: #000;
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem; /*create separate utility class for such stuff*/
+}
+
+.paragraph {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.header__color-mode-box {
+  display: flex;
+  align-items: center;
+}
+
+.header__color-mode-box .paragraph {
+  color: hsl(230, 22%, 74%);
+  font-size: 1.2rem;
+  margin-right: 1.2rem; /*create separate utility class for such stuff*/
+}
