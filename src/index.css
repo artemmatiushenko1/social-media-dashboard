@@ -20,3 +20,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.heading-primary {
+  color: #000;
+  font-size: 2.5rem;
+  margin-bottom: 1.2rem; /*create separate utility class for such stuff*/
+}
+
+.paragraph {
+  font-weight: 700;
+  font-size: 1.1rem;
+}

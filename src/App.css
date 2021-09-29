@@ -14,3 +14,8 @@
   margin: 0 auto;
   padding-top: 4rem;
 }
+
+.followers-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
