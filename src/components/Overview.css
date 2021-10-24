@@ -1,0 +1,10 @@
+.overview__heading {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.overview__items-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-gap: 3rem;
+}

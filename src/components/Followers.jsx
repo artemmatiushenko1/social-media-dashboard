@@ -7,9 +7,6 @@ export default function Followers() {
     <div className="followers__card">
       <p className="followers__username">
         <span>
-          {/* <svg>
-              <use xlinkHref={sprite + '#icon-facebook'}></use>
-            </svg> */}
           <SvgIcon
             className="followers__social-icon"
             iconName="icon-facebook"
@@ -21,8 +18,9 @@ export default function Followers() {
       <p className="paragraph">Followers</p>
       <div className="followers__change">
         <SvgIcon className="icon-up" iconName="icon-up"></SvgIcon>
-        <span>12</span>
-        Today
+        <p>
+          <span>13 </span> Today
+        </p>
       </div>
     </div>
   );

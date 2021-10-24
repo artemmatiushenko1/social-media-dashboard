@@ -16,6 +16,12 @@
 }
 
 .followers-wrapper {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: 3rem;
+  margin-bottom: 5rem;
+}
+
+.header {
+  margin-bottom: 5rem;
 }
