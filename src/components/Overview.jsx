@@ -16,7 +16,7 @@ export default function Overview() {
         <Activity
           activityName="Likes"
           total="52"
-          rate="2"
+          rate="-2"
           platform="facebook"
         />
         <Activity
@@ -46,13 +46,13 @@ export default function Overview() {
         <Activity
           activityName="Likes"
           total="107"
-          rate="19"
+          rate="-19"
           platform="youtube"
         />
         <Activity
           activityName="Total views"
           total="1407"
-          rate="12"
+          rate="-12"
           platform="youtube"
         />
       </div>

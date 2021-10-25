@@ -14,9 +14,19 @@ export default function Activity(props) {
       </div>
       <div className="activity__details">
         <h2 className="activity__total">{props.total}</h2>
-        <div className="activity__rate">
-          <SvgIcon className="activity__rate-icon" iconName="icon-up" />
-          <p className="activity__rate-number">{props.rate}%</p>
+        <div
+          className={
+            'activity__rate ' +
+            (props.rate > 0 ? 'activity-change--get' : 'activity-change--lost')
+          }
+        >
+          <SvgIcon
+            className="activity__rate-icon"
+            iconName={props.rate > 0 ? 'icon-up' : 'icon-down'}
+          />
+          <p className="activity__rate-number">
+            {props.rate.replace('-', '')}%
+          </p>
         </div>
       </div>
     </div>

@@ -27,7 +27,6 @@
 }
 
 .activity__rate-number {
-  color: hsl(163, 72%, 41%);
   font-weight: 700;
 }
 
@@ -44,4 +43,12 @@
 
 .activity__rate {
   display: flex;
+}
+
+.activity-change--lost {
+  color: hsl(356, 69%, 56%);
+}
+
+.activity-change--get {
+  color: hsl(163, 72%, 41%);
 }

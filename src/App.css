@@ -15,10 +15,19 @@
   padding-top: 4rem;
 }
 
+/*1100px*/
+@media only screen and (max-width: 68.75em) {
+  .container {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
 .followers-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-gap: 3rem;
+  grid-gap: 2.5rem;
   margin-bottom: 5rem;
 }
 
