@@ -1,3 +1,23 @@
+:root {
+  /*Light mode colors*/
+  --color-card-light: hsl(227, 47%, 96%);
+  --color-bc-light: hsl(0, 0%, 100%);
+  --color-bc-after-light: hsl(225, 100%, 98%);
+  --color-heading-light: hsl(230, 17%, 14%);
+
+  /*Dark mode colors*/
+  --color-card-dark: hsl(228, 28%, 20%);
+  --color-bc-dark: hsl(230, 17%, 14%);
+  --color-bc-after-dark: hsl(232, 19%, 15%);
+  --color-heading-dark: hsl(0, 0%, 100%);
+
+  /*Current used colors*/
+  --color-card: var(--color-card-light);
+  --color-bc: var(--color-bc-light);
+  --color-bc-after: var(--color-bc-after-light);
+  --color-heading: var(--color-heading-light);
+}
+
 html {
   font-size: 62.5%;
 }
@@ -8,12 +28,14 @@ html {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   color: hsl(228, 12%, 44%);
+  background-color: var(--color-bc);
 }
 
 code {
@@ -22,7 +44,7 @@ code {
 }
 
 .heading-primary {
-  color: #000;
+  color: var(--color-heading);
   font-size: 2.5rem;
   margin-bottom: 1.2rem; /*create separate utility class for such stuff*/
 }

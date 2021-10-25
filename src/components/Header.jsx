@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ToogleButton from './ToogleButton';
 import './Header.css';
 
@@ -15,7 +15,7 @@ export default function Header(props) {
         </div>
         <div className="header__color-mode-box">
           <p className="paragraph">Dark Mode</p>
-          <ToogleButton className="header__theme-toogle-btn"></ToogleButton>
+          <ToogleButton className="header__theme-toogle-btn" />
         </div>
       </header>
     </div>
