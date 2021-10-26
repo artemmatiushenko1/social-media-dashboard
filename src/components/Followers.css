@@ -43,14 +43,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 3rem; /*create separate utility class for such stuff*/
 }
 
 .followers__social-icon {
   display: inline-block;
   width: 2rem;
   height: 2rem;
-  margin-right: 1rem; /*create separate utility class for such stuff*/
 }
 
 .followers__total {
@@ -63,7 +61,6 @@
   font-size: 1rem;
   letter-spacing: 0.5rem;
   font-weight: 400;
-  margin-bottom: 4rem; /*create separate utility class for such stuff*/
 }
 
 .followers__change {
@@ -72,12 +69,6 @@
   justify-content: center;
   font-weight: 700;
   color: hsl(163, 72%, 41%);
-}
-
-.icon-up {
-  width: 1rem;
-  height: 1rem;
-  margin-right: 0.5rem;
 }
 
 .followers-change--lost {

@@ -48,5 +48,4 @@
 .header__color-mode-box .paragraph {
   color: hsl(230, 22%, 74%);
   font-size: 1.2rem;
-  margin-right: 1.2rem; /*create separate utility class for such stuff*/
 }

@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Header />
-        <div className="followers-wrapper">
+        <Header className="u-mb--big" />
+        <div className="followers-wrapper u-mb--big">
           <Followers
             platform="facebook"
             username="@artemko_m"

@@ -5,7 +5,7 @@ import './Activity.css';
 export default function Activity(props) {
   return (
     <div className="activity">
-      <div className="activity__header">
+      <div className="activity__header u-mb--small">
         <h2 className="activity__header-title">{props.activityName}</h2>
         <SvgIcon
           className="activity__social-icon"
@@ -21,7 +21,7 @@ export default function Activity(props) {
           }
         >
           <SvgIcon
-            className="activity__rate-icon"
+            className="activity__rate-icon u-mr-tiny icon--tiny"
             iconName={props.rate > 0 ? 'icon-up' : 'icon-down'}
           />
           <p className="activity__rate-number">

@@ -8,7 +8,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 3rem;
 }
 
 .activity__header-title {
@@ -18,12 +17,6 @@
 .activity__social-icon {
   width: 2rem;
   height: 2rem;
-}
-
-.activity__rate-icon {
-  width: 1rem;
-  height: 1rem;
-  margin-right: 0.5rem;
 }
 
 .activity__rate-number {

@@ -5,7 +5,7 @@ import './Overview.css';
 export default function Overview() {
   return (
     <div>
-      <h2 className="overview__heading">Overview - Today</h2>
+      <h2 className="overview__heading u-mb--small">Overview - Today</h2>
       <div className="overview__items-container">
         <Activity
           activityName="Page views"

@@ -19,7 +19,6 @@
   padding-top: 4rem;
 }
 
-/*1100px*/
 @media only screen and (max-width: 68.75em) {
   .container {
     padding-right: 2.5rem;
@@ -32,9 +31,4 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   grid-gap: 2.5rem;
-  margin-bottom: 5rem;
-}
-
-.header {
-  margin-bottom: 5rem;
 }

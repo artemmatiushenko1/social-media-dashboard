@@ -1,8 +1,8 @@
 .checkboxBtn {
   position: relative;
   appearance: none;
-  width: 5rem; /*5rem*/
-  height: 2.5rem; /*2.5rem*/
+  width: 5rem;
+  height: 2.5rem;
   background-image: linear-gradient(
     to right,
     hsl(210, 78%, 56%),
