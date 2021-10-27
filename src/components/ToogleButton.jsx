@@ -9,6 +9,7 @@ export default function ToogleButton() {
     '--color-bc',
     '--color-bc-after',
     '--color-heading',
+    '--color-card-hover',
   ];
 
   const changeTheme = () => {

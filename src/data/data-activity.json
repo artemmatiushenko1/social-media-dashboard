@@ -1,0 +1,50 @@
+[
+  {
+    "activityName": "Page views",
+    "total": "87",
+    "rate": "3",
+    "platform": "facebook"
+  },
+  {
+    "activityName": "Likes",
+    "total": "52",
+    "rate": "-2",
+    "platform": "facebook"
+  },
+  {
+    "activityName": "Likes",
+    "total": "5462",
+    "rate": "2257",
+    "platform": "instagram"
+  },
+  {
+    "activityName": "Profile views",
+    "total": "52k",
+    "rate": "1375",
+    "platform": "instagram"
+  },
+  {
+    "activityName": "Retweets",
+    "total": "117",
+    "rate": "303",
+    "platform": "twitter"
+  },
+  {
+    "activityName": "Likes",
+    "total": "507",
+    "rate": "553",
+    "platform": "twitter"
+  },
+  {
+    "activityName": "Likes",
+    "total": "107",
+    "rate": "-19",
+    "platform": "youtube"
+  },
+  {
+    "activityName": "Total views",
+    "total": "1407",
+    "rate": "-12",
+    "platform": "youtube"
+  }
+]

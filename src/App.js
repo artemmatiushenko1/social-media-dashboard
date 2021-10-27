@@ -3,6 +3,7 @@ import './App.css';
 import Followers from './components/Followers';
 import Header from './components/Header';
 import Overview from './components/Overview';
+import followersData from './data/data-followers.json';
 
 function App() {
   return (
@@ -10,30 +11,16 @@ function App() {
       <div className="container">
         <Header className="u-mb--big" />
         <div className="followers-wrapper u-mb--big">
-          <Followers
-            platform="facebook"
-            username="@artemko_m"
-            followersTotal="1987"
-            followersChange="12"
-          />
-          <Followers
-            platform="twitter"
-            username="@_artemko"
-            followersTotal="1044"
-            followersChange="99"
-          />
-          <Followers
-            platform="instagram"
-            username="@artem"
-            followersTotal="11k"
-            followersChange="1099"
-          />
-          <Followers
-            platform="youtube"
-            username="@artemko"
-            followersTotal="8239"
-            followersChange="-144"
-          />
+          {followersData.map((item) => {
+            return (
+              <Followers
+                platform={item.platform}
+                username={item.username}
+                followersTotal={item.followersTotal}
+                followersChange={item.followersChange}
+              />
+            );
+          })}
         </div>
         <Overview />
       </div>

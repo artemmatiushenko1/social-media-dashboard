@@ -4,18 +4,21 @@
   --color-bc-light: hsl(0, 0%, 100%);
   --color-bc-after-light: hsl(225, 100%, 98%);
   --color-heading-light: hsl(230, 17%, 14%);
+  --color-card-hover-light: hsl(232, 33%, 91%);
 
   /*Dark mode colors*/
   --color-card-dark: hsl(228, 28%, 20%);
   --color-bc-dark: hsl(230, 17%, 14%);
   --color-bc-after-dark: hsl(232, 19%, 15%);
   --color-heading-dark: hsl(0, 0%, 100%);
+  --color-card-hover-dark: hsl(228, 26%, 27%);
 
   /*Current used colors*/
   --color-card: var(--color-card-light);
   --color-bc: var(--color-bc-light);
   --color-bc-after: var(--color-bc-after-light);
   --color-heading: var(--color-heading-light);
+  --color-card-hover: var(--color-card-hover-light);
 }
 
 html {
@@ -76,4 +79,13 @@ body {
 .paragraph {
   font-weight: 700;
   font-size: 1.1rem;
+}
+
+.card {
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: var(--color-card-hover);
 }

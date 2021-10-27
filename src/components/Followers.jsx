@@ -4,7 +4,7 @@ import './Followers.css';
 
 export default function Followers(props) {
   return (
-    <div className={'followers__card followers__card--' + props.platform}>
+    <div className={'followers__card card followers__card--' + props.platform}>
       <p className="followers__username u-mb--small">
         <span>
           <SvgIcon

@@ -4,7 +4,7 @@ import './Activity.css';
 
 export default function Activity(props) {
   return (
-    <div className="activity">
+    <div className="activity card">
       <div className="activity__header u-mb--small">
         <h2 className="activity__header-title">{props.activityName}</h2>
         <SvgIcon
